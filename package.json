@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^3.0.0",
+    "md5": "^2.3.0",
+    "nodemailer": "^6.7.7",
+    "path": "^0.12.7",
+    "sequelize": "^6.21.3",
+    "swagger-ui-express": "^4.5.0",
+    "yamjs": "^0.6.11",
+    "yamljs": "^0.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.20.0",
+    "prettier": "^2.7.1"
+  },
+  "scripts": {
+    "start": "node server",
+    "lint": "eslint . --ext .js,.cjs,.mjs --fix --ignore-path .gitignore",
+    "dev": "nodemon server"
+  },
+  "name": "lvdat-tools-api",
+  "version": "1.0.0",
+  "description": "lvdat Tools API",
+  "main": "server.js",
+  "author": "lvdat",
+  "license": "MIT"
+}
